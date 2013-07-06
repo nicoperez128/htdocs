@@ -1,0 +1,201 @@
+@charset "utf-8"; 
+/* CSS Document */
+body {
+	padding:0;
+	margin:0;
+	border:0;
+	}
+img {
+border:0;
+}
+
+
+#alert-wrapper {
+	width:402px;
+    border:1px solid #e1e1e1;
+	background:#FFF;
+	margin:0 auto;
+	overflow:hidden;
+}
+#alert-container {
+	width:400px;
+	margin:0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+    color:#009bfe;
+    text-shadow:1px 1px 1px #fff;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+	background-color:#fff;
+	border-top:1px solid #fff;
+    border-right:1px solid #fff;
+    border-left:1px solid #fff;
+	-moz-border-radius:3px 3px 0 0;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-top-right-radius:3px;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+
+}
+#alert-icon {
+	width:100%;
+	height:42px;
+	text-align:center;
+	margin:20px 0;
+}
+#alert-title {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+    color:#ff5a00;
+	text-align:center;
+	}
+#alert-text {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+    color:#000;
+	margin:20px 15px;
+	text-align:center;
+	
+	}
+#alert-list-box {
+	margin:15px;
+	padding:20px 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+	border:1px solid #e1e1e1;	
+}
+.alert-list {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+    color:#666;
+	width:370px;
+	margin:10px 15px;
+	text-transform:uppercase;
+	}
+#alert-button-bar {
+	width:100%;
+	height:30px;
+	text-align:center;
+	margin:20px 0;
+}
+.alert-button {
+	padding:5px 15px;
+	margin:0 15px;
+	border-radius: 3px;
+	border:1px solid #e1e1e1;	
+	
+	font-size:10px;
+	text-align:center;
+	background:#e2e2e2;
+	color:#000;
+	}
+.alert-button:hover {
+	font-weight:bold;
+	background:transparent;
+	color:#ff5a00;
+	}
+
+
+/* TOOLTIP */	
+
+
+.chat-bubble {
+background-color:#FFF;
+border:1px solid #e0e0e0;
+font-size:35px;
+line-height:1.3em;
+margin:10px auto;
+padding:5px;
+position:relative;
+text-align:center;
+width:410px;
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+
+}
+.chat-bubble-inner {
+
+overflow: hidden;
+-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #f0f0f0 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#ffffff');
+	background-color:#f0f0f0;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	border:1px solid #dcdcdc;
+
+
+}
+.chat-bubble-alert {
+height:72px;
+width:72px;
+background: url('../image/alert.png') center no-repeat;
+float:left;
+}
+.chat-bubble-text-box {
+min-height:62px;
+width:323px;
+float:left;
+text-align:left;
+padding:5px 0;
+
+}
+.chat-bubble-text-box h1 {
+width:100%;
+font-family:"Arial", Tahoma, Verdana, Helvetica, sans-serif;
+font-size:14px;
+color:#9c0101;
+padding:5px 0;
+line-height:20px;
+margin:0;
+}
+.chat-bubble-text-box p {
+width:100%;
+font-family:"Arial", Tahoma, Verdana, Helvetica, sans-serif;
+font-size:12px;
+color:#000;
+margin:0;
+line-height:20px;
+}
+.chat-bubble-arrow-border {
+border-color: #e0e0e0 transparent transparent transparent;
+border-style: solid;
+border-width: 10px;
+height:0;
+width:0;
+position:absolute;
+bottom:-20px;
+right:50px;
+
+}
+
+.chat-bubble-arrow {
+border-color: #FFF transparent transparent transparent;
+border-style: solid;
+border-width: 10px;
+height:0;
+width:0;
+position:absolute;
+bottom:-19px;
+right:50px;
+}
+
+/* IE6 */
+.chat-bubble-arrow {
+_border-left-color: pink;
+_border-bottom-color: pink;
+_border-right-color: pink;
+_filter: chroma(color=pink);
+}
+
+/* FIN TOOLTIP */	
