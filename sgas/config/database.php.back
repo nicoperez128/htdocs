@@ -1,0 +1,254 @@
+<?php
+
+$sgasdb = array(
+	'dbname' => 'sgas',
+	'host' => '127.0.0.1',
+	'port' => '5432',
+	'user' => '',
+	'password' => '',
+	'persistent' => 0
+	);
+
+$rndb = array(
+	'dbname' => 'registro_nacional',
+	'host' => '127.0.0.1',
+	'port' => '5432',
+	'user' => '',
+	'password' => '',
+	'persistent' => 0
+	);
+$mmayordb = array(
+	'dbname' => 'material_mayor',
+	'host' => '127.0.0.1',
+	'port' => '5432',
+	'user' => '',
+	'password' => '',
+	'persistent' => 0
+	);
+
+$mantenedores = array(
+	'tipo_lugar' => array(
+		'nombre' => 'Tipo de lugar',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'tipo_via' => array(
+		'nombre' => 'Tipo de via',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'lugar_inicio_fuego' => array(
+		'nombre' => 'Lugar de inicio del fuego',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'tipo_construccion' => array(
+		'nombre' => 'Tipo de construcción',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'causa' => array(
+		'nombre' => 'Causa',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'compania_aseguradora' => array(
+		'nombre' => 'Compañía aseguradora',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'contenedor_gas' => array(
+		'nombre' => 'Contenedor de gas',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'empresa_dist_gas' => array(
+		'nombre' => 'Empresa distribuidora de gas',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'fuente_calor' => array(
+		'nombre' => 'Fuente de calor',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'origen' => array(
+		'nombre' => 'Origen del fuego',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'proc_ambulancia' => array(
+		'nombre' => 'Procedencia de la ambulancia',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'tipo_gas' => array(
+		'nombre' => 'Tipo de gas',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'tipo_ocupante' => array(
+		'nombre' => 'Tipo de ocupante',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'tipo_servicio' => array(
+		'nombre' => 'Tipo de servicio',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'unidad_explosivos' => array(
+		'nombre' => 'Unidad de explosivos',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'unidad_gases' => array(
+		'nombre' => 'Unidad de gases',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'unidad_liquidos' => array(
+		'nombre' => 'Unidad de liquidos',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'unidad_otros' => array(
+		'nombre' => 'Unidad de otros',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'unidad_oxidantes' => array(
+		'nombre' => 'Unidad de oxidantes',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'unidad_radioactivos' => array(
+		'nombre' => 'Unidad de radioactivos',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'unidad_solidos' => array(
+		'nombre' => 'Unidad de solidos',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'unidad_venenos' => array(
+		'nombre' => 'Unidad de venenos',
+		'editable' => array(
+			array(
+			'col' => 'nombre', 
+			'tipo' => 'input')
+			)
+		),
+	'tipo_vehiculo' => array(
+		'nombre' => 'Tipo de Vehículo',
+		'editable' => array(
+				array(
+					'col' => 'nombre', 
+					'tipo' => 'input'
+				)
+			)
+		),
+	'marca_vehiculo' => array(
+		'nombre' => 'Marca del Vehículo',
+		'editable' => array(
+				array(
+					'col' => 'nombre', 
+					'tipo' => 'input'
+				)
+			)
+		),
+	'modelo_vehiculo' => array(
+		'nombre' => 'Modelo del Vehículo',
+		'editable' => array(
+				array(
+					'col' => 'nombre', 
+					'tipo' => 'input'
+				),
+				array(
+					'col' => 'id_marca_vehiculo',
+					'tipo' => 'select',
+					'depende' => 'marca_vehiculo'
+				)
+			)
+		),
+	// 'municipalidad' => array(
+	// 	'nombre' => 'Oficina de emergencia de',
+	// 	'editable' => array(
+	// 			array(
+	// 				'col' => 'nombre', 
+	// 				'tipo' => 'input'
+	// 			),
+	// 			array(
+	// 				'col' => 'cuerpo_id',
+	// 				'tipo' => 'select',
+	// 				'depende' => 'cuerpo',
+	// 				'db' => 'registro_nacional'
+	// 			)
+	// 		)
+	// 	)
+	);
+

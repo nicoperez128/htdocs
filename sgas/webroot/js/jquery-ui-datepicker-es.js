@@ -1,0 +1,32 @@
+jQuery(function($){
+	$.datepicker.regional['es'] = {
+		closeText: 'Cerrar',
+		prevText: '<Ant',
+		nextText: 'Sig>',
+		currentText: 'Hoy',
+		monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+		monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+		dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+		dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+		dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+		weekHeader: 'Sm',
+		dateFormat: 'dd/mm/yy',
+		firstDay: 1,
+		closeText: 'Listo',
+		amNames: ['AM', 'A'],
+		pmNames: ['PM', 'P'],
+		timeFormat: 'HH:mm',
+		timeSuffix: '',
+		timeOnlyTitle: 'Elije la hora',
+		timeText: 'Tiempo',
+		hourText: 'Hour',
+		minuteText: 'Minutos',
+		secondText: 'Segundos',
+		millisecText: 'Millisegundos',
+		microsecText: 'Microsegundos',
+		timezoneText: 'Zona',
+		isRTL: false,
+		showMonthAfterYear: false,
+		yearSuffix: ''};
+   $.datepicker.setDefaults($.datepicker.regional['es']);
+});
